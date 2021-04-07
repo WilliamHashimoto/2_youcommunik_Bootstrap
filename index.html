@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,80 @@
     <title>YouCommunik Bootstrap</title>
     <link rel="stylesheet" href="./public/css/app.css">
 </head>
+
 <body>
+
+    <section class="mainSection container w-75">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-xl navbar-dark bg-dark justify-content-between navFont">
+            <div class="navLogo">
+                <a class="navbar-brand" href="#">
+                    <img src="./public/img/logo-horizontal-fond-noir-couleur.png" width="200px"
+                        class="d-inline-block align-top" alt="">
+                </a>
+            </div>
+
+            <div class="navCollapse">
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#">
+                            <div class="navLogo">
+                                <img  src="./public/img/home-icon.png" alt="">
+                            </div>
+                            <p class="text-center mt-3">HOME</p>
+                        </a>
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#">
+                            <div class="navLogo">
+                                <img  src="./public/img/packages-icon.png" alt="">
+                            </div>
+                            <p class="text-center mt-3">PACKAGES</p>
+                            
+                        </a>
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#">
+                            <div class="navLogo">
+                                <img  src="./public/img/outils-icon.png" alt="">
+                            </div>
+                            <p class="text-center mt-3">OUTILS</p>
+                        </a>
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#" tabindex="-1" aria-disabled="true">
+                            <div class="navLogo">
+                                <img  src="./public/img/projets-icon.png" alt="">
+                            </div>
+                            <p class="text-center mt-3">PROJETS</p>
+                        </a>
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#">
+                            <div class="navLogo">
+                                <img  src="./public/img/temoignages-icon.png" alt="">
+                            </div>
+                            <p class="text-center mt-3">TEMOIGNAGES</p>
+                            
+                        </a>
+                        <a class="py-0 nav-link text-white d-flex flex-column" href="#" tabindex="-1" aria-disabled="true">
+                            <div class="navLogo">
+                                <img  src="./public/img/contact-icon.png" alt="">
+                            <p class="text-center mt-3">CONTACT</p> 
+                            </div>
+                            
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </nav>
+    </section>
+
     <!-- J Query -->
     <script src="./node_modules/jquery/dist/jquery.js"></script>
     <!-- Bootstrap -->
     <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
 </body>
+
 </html>
